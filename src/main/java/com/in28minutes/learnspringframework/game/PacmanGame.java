@@ -1,9 +1,12 @@
 package com.in28minutes.learnspringframework.game;
 
+import org.springframework.stereotype.Component;
+
 /**
  * author : ms.Lee
  * date   : 2023-12-21
  */
+@Component
 public class PacmanGame implements GamingConsole {
 
   public void up() {
