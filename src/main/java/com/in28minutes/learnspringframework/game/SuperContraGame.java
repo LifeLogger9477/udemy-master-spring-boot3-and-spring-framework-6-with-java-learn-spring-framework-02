@@ -1,9 +1,14 @@
 package com.in28minutes.learnspringframework.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
 /**
  * author : ms.Lee
  * date   : 2023-12-21
  */
+@Component
+@Qualifier("SuperContraGameQualifier")
 public class SuperContraGame implements GamingConsole{
 
   public void up() {
