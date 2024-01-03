@@ -1,6 +1,7 @@
 package com.in28minutes.learnspringframework.examples.c1;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.Arrays;
 
@@ -8,7 +9,8 @@ import java.util.Arrays;
  * author : ms.Lee
  * date   : 2023-12-27
  */
-@Component
+//@Component
+@Service
 public class BusinessCalculationService {
 
   private DataService dataService;
